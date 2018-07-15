@@ -1,0 +1,9 @@
+{
+    "name": "tugzrida.epochhelper",
+    "title": "Epoch Timestamp Helper",
+    "homepage": "https://github.com/Tugzrida/brackets-epochhelper",
+    "author": "Cameron Steel",
+    "version": "1.0.0",
+    "keywords": ["epoch", "timestamp"],
+    "description": "Shows the value of any selected UNIX epoch timestamp (in micro, milli or whole seconds, hex or decimal) as an ISO datetime in the status bar."
+}
