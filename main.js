@@ -54,8 +54,7 @@ define(function () {
         $stampOut.text(new Date(inputtext).toISOString() + assumption);
     }
 
-    function onEditorChange(event, current, previous) {
-        previous.on("cursorActivity.statusbar", showTimestamp);
+    function onEditorChange(event, current) {
         current.on("cursorActivity.statusbar", showTimestamp);
         showTimestamp(null, current);
     }
